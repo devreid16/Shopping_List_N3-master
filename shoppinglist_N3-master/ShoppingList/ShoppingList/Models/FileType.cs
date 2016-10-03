@@ -7,6 +7,7 @@ namespace ShoppingList.Models
 {
     public enum FileType
     {
-        ImgItem = 1, Photo
+        Picture = 1, Photo
     }
+    
 }

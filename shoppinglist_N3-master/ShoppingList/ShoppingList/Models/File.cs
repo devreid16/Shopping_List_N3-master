@@ -16,7 +16,7 @@ namespace ShoppingList.Models
         public byte[] Content { get; set; }
         public FileType FileType { get; set; }
         public int ShoppingListItemId { get; set; }
-
-        public virtual ShoppingListItem ShoppingListItem { get; set; }
+        public virtual ShoppingListItem ShoppingListItem { get; set; }       
+        
     }
 }
